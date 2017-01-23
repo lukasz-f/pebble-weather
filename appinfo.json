@@ -10,33 +10,43 @@
         "media": [
             {
                 "file": "images/menu_icon.png",
-                "menuIcon": true,
                 "name": "IMAGE_MENU_ICON",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/logo_splash.png",
                 "name": "IMAGE_LOGO_SPLASH",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/tile_splash.png",
                 "name": "IMAGE_TILE_SPLASH",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "fonts/UbuntuMono-Regular.ttf",
                 "name": "MONO_FONT_14",
                 "type": "font"
+            },
+            {
+                "file": "images/icon",
+                "menuIcon": true,
+                "name": "IMAGES_ICON",
+                "type": "png"
             }
         ]
     },
     "sdkVersion": "3",
     "shortName": "weather",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
     "uuid": "38d1b0ba-b6b3-43b1-8f49-d12ddf5e0a49",
     "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {
+        "hiddenApp": false,
         "watchface": false
     }
 }
